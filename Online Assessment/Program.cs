@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Online_Assessment
 {
@@ -8,30 +10,7 @@ namespace Online_Assessment
     {
         static void Main(string[] args)
         {
-            List<PairString> input = new List<PairString> {
-                new PairString("item1", "item2"),
-                new PairString("item3", "item4"),
-                new PairString("item4", "item5")
-            };
-
-            List<string> result = LargestItemAssociation(input);
-        }
-
-        public static List<string> LargestItemAssociation(List<PairString> itemAssociation)
-        {
-
-        }
-    }
-
-    public class PairString
-    {
-        public string First;
-        public string Second;
-
-        public PairString(string first, string second)
-        {
-            First = first;
-            Second = second;
+            
         }
     }
 }
